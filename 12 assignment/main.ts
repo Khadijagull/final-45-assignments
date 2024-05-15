@@ -2,20 +2,18 @@ let myFriendNames:string[] = ["Nayab" , "Reeha" , "Hira" , "Naosheen" , "Hafsa"]
 //  loop
 for (let i = 0; i < myFriendNames.length; i++) {
 
-    console.log(myFriendNames[i])
-};
+    console.log (`hello, ${myFriendNames[i]}! how are you?`);
+}
 
 // for each
 myFriendNames.forEach(names => {
-    console.log(names);
+    console.log(` hi ${names}! how are you?`);
 })
- 
+
 // for of loop
 
 for (let friendsName of myFriendNames) {
 
-console.log(friendsName);
-}
-
-
-
+    console.log(`Asalam-o-alaekum ${friendsName}! kesay ho sb?`);
+    }
+    
